@@ -4,10 +4,12 @@
   text-decoration: none;
   list-style: none;
 }
+
 .header-container {
   display: flex;
   justify-items: center;
 }
+
 .header-content {
   display: flex;
   width: 100%;
@@ -16,31 +18,48 @@
   align-items: center;
   background-color: #149eca;
 }
+
 .header-container h1 {
   color: white;
 }
+
 .header-container ul {
   display: flex;
-  gap: 20px;
+  gap: 20px
 }
+
 .header-container > div > nav > ul > li > a {
   color: white;
 }
+
 #main-container {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 60px;
-  gap: 200px;
+  gap: 100px;
 }
+
 .image-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 400px;
-  height: 400px;
-  border-radius: 100%;
+  width: 290px;
+  height: 290px;
+  border-radius: 50%;
   overflow: hidden;
+}
+.redes ul {
+  display: flex;
+  justify-content: center;
+}
+.redes ul a {
+  display: block;
+  padding: 10px;
+}
+.redes ul li img{
+  max-width: 50px;
+  border-radius: 14px;
 }
 footer {
   display: flex;
